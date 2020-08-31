@@ -4,9 +4,13 @@ body {
     border: 1px solid red;
 }
 
-h1, p, form {
-    display: flex;
+.wrapper,form {
+    display: inline-flex;
     flex-direction: column;
-    justify-content: center;
     border: 1px solid red;
+    align-content: space-between;
+}
+
+.wrapper {
+    justify-content: center;
 }
