@@ -4,13 +4,21 @@ body {
     border: 1px solid red;
 }
 
-.wrapper,form {
-    display: inline-flex;
+.wrapper {
+    display: flex;
     flex-direction: column;
     border: 1px solid red;
-    align-content: space-between;
+    justify-content: center;
+    padding: 20px 15px;
+    align-items: center;
+    border: 1px solid red;
 }
 
-.wrapper {
-    justify-content: center;
+form {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+input, label {
+    margin-bottom: 10px;
 }
