@@ -22,7 +22,7 @@ h1, p {
 form {
     display: inline-flex;
     flex-direction: column;
-    background-color: #eff0ec;
+    background-color: #eff0eccc;
     padding: 30px 30px;
     border-radius: 5px;
 }
