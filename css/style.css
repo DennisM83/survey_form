@@ -53,3 +53,9 @@ input, label {
     height: 35px;
     border-radius: 5px;
 }
+
+.beer-list {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
