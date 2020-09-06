@@ -16,6 +16,11 @@ body {
     margin: 30px 400px 100px 400px;
 }
 
+#logo {
+    width: 321.43px;
+    height: 349.37px;
+}
+
 h1, p {
     color: #eff0ec;
 }
