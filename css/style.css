@@ -37,11 +37,12 @@ input, label {
     margin-bottom: 10px;
 }
 
-#name, #email, #number {
+#name, #email, #number, #dropdown {
     width: 600px;
     height: 35px;
     border-radius: 5px;
     border: 1px solid #f2f2f2;
+    margin-bottom: 40px;
 }
 
 #submit {
