@@ -37,7 +37,7 @@ input, label {
     margin-bottom: 10px;
 }
 
-#name, #email {
+#name, #email, #number {
     width: 600px;
     height: 35px;
     border-radius: 5px;
