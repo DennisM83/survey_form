@@ -22,21 +22,29 @@
             <label for="" id="number-label">Age</label>
             <input type="number" id="number" min="18" max="99" placeholder="Age">
 
-            <label for="example"></label>
-            <input type="radio" name="example">
-            <label for=""></label>
-            <input type="radio" name="example">
-            <label for=""></label>
-            <input type="radio" name="example">
-            <label for=""></label>
-            <input type="radio" name="example">
+            <div class="city-list">
+                <input type="radio" name="example">
+                <label for="example">Tampa, FL</label>
+            </div>
+            <div class="city-list">
+                <input type="radio" name="example">
+                <label for="">Atlanta, GA</label>
+            </div>
+            <div class="city-list">
+                <input type="radio" name="example">
+                <label for="">Pawnee, IL</label>
+            </div>
+            <div class="city-list" id="last-city">
+                <input type="radio" name="example">
+                <label for="">Scranton, PA</label>
+            </div>
 
             <div class="beer-list">
-                <input type="checkbox" name="placeholder">
+                <input type="checkbox" name="one">
                 <label for="satyr-imperial">Satyr Imperial IPA</label>
             </div>
             <div class="beer-list">
-                <input type="checkbox" name="placeholder">
+                <input type="checkbox" name="two">
                 <label for="aphrodite-sour">Aphrodite Sour Rosé</label>
             </div>
             <div class="beer-list">
@@ -55,11 +63,11 @@
                 <input type="checkbox" name="placeholder">
                 <label for="">Apollo Pale Ale</label>
             </div>
-            <div class="beer-list">
+            <div class="beer-list" id="last_beer">
                 <input type="checkbox" name="placeholder">
                 <label for="">Poseidon Gose</label>
             </div>
-            
+
             <label for="grub-label">What grub are you looking to demolish?</label>
             <select name="grub" id="dropdown">
                 <option value="brats">Bratwurst</option>
