@@ -1,3 +1,9 @@
+:root {
+    --list-display: inline-block;
+    --list-width: 200px;
+    --list-text-align: left;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -46,7 +52,7 @@ input, label {
 }
 
 #submit {
-    margin-top: 30px;
+    margin-top: 40px;
     border: none;
     background-color: #f44336;
     width: 600px;
@@ -54,8 +60,18 @@ input, label {
     border-radius: 5px;
 }
 
+.city-list {
+    display: var(--list-display);
+    width: var(--list-width);
+    text-align: var(--list-text-align);
+}
+
 .beer-list {
-    display: inline-block;
-    width: 200px;
-    text-align: left;
+    display: var(--list-display);
+    width: var(--list-width);
+    text-align: var(--list-text-align);
+}
+
+#last_beer, #last-city {
+    margin-bottom: 40px;
 }
