@@ -60,6 +60,10 @@ input, label {
     border-radius: 5px;
 }
 
+.city-question, .beer-question {
+    color: #2b2f36;
+}
+
 .city-list {
     display: var(--list-display);
     width: var(--list-width);
@@ -74,4 +78,9 @@ input, label {
 
 #last_beer, #last-city {
     margin-bottom: 40px;
+}
+
+#comment-area {
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
 }
